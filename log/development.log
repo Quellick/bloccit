@@ -88,3 +88,17 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 128ms (Views: 127.0ms)
 
 
+Started GET "/welcome/index" for 67.204.187.67 at 2017-11-13 22:38:18 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 546ms (Views: 261.2ms)
+
+
+Started GET "/welcome/contact" for 67.204.187.67 at 2017-11-13 22:38:22 +0000
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 82ms (Views: 78.9ms)
+
+
