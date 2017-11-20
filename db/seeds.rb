@@ -8,6 +8,10 @@
 
 require 'random_data'
 
+ puts "#{Post.count}"
+ Post.find_or_create_by(title: "Tucker's Title",body: "Tucker's Body" )
+ puts "#{Post.count}"
+ 
  # Create Posts
  50.times do
  # #1 we use create! with a bang (!). Adding a ! instructs the method to raise an error if there's a problem with the data we're seeding. 
