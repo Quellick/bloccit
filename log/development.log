@@ -707,3 +707,149 @@ Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments"[0m
   [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+Started GET "/" for 67.204.187.67 at 2017-11-20 20:44:02 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 2672ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_index_path' for #<#<Class:0x007fe7789947f8>:0x007fe7789a1fe8>):
+    12:   <body>
+    13:      <div class="container">
+    14:        <ul class="nav nav-tabs">
+    15:           <li><%= link_to "Home", welcome_index_path %></li>
+    16:           <li><%= link_to "About", welcome_about_path %></li>
+    17:        </ul>
+    18:        <%= yield %>
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2703320600706789292_27856360'
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:44:13 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_index_path' for #<#<Class:0x007fe77b16e0f8>:0x007fe77b16c500>):
+    12:   <body>
+    13:      <div class="container">
+    14:        <ul class="nav nav-tabs">
+    15:           <li><%= link_to "Home", welcome_index_path %></li>
+    16:           <li><%= link_to "About", welcome_about_path %></li>
+    17:        </ul>
+    18:        <%= yield %>
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2703320600706789292_70316089616340'
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:52:15 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 142ms (Views: 121.1ms)
+
+
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:52:57 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 47.3ms)
+
+
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:52:59 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 61.5ms)
+
+
+Started GET "/" for 67.204.187.67 at 2017-11-20 20:53:23 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All Posts</h1>
+    2:  # #12 we iterate over each post in @posts. For each post we create a link with  post.title as the text that links to /posts/id, with the id from the post.id. Instance variables created in a controller method are available in its associated view. 
+    3:  # #   Since we create and assign @posts in PostsController#index, we can use it in the posts index view.
+    4:  <% @posts.each do |post| %>
+    5:    <p><%= link_to post.title, post_path(post.id) %></p>
+    6:  <% end %>
+  
+app/views/welcome/index.html.erb:4:in `_app_views_welcome_index_html_erb__3794815406727957883_70316086045100'
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:53:31 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 42.7ms)
+
+
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:53:52 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 390ms (Views: 372.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 67.204.187.67 at 2017-11-20 20:55:46 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All Posts</h1>
+    2:  # #12 we iterate over each post in @posts. For each post we create a link with  post.title as the text that links to /posts/id, with the id from the post.id. Instance variables created in a controller method are available in its associated view. 
+    3:  # #   Since we create and assign @posts in PostsController#index, we can use it in the posts index view.
+    4:  <% @posts.each do |post| %>
+    5:    <p><%= link_to post.title, post_path(post.id) %></p>
+    6:  <% end %>
+  
+app/views/welcome/index.html.erb:4:in `_app_views_welcome_index_html_erb__1529704892645917499_69854909462220'
+Started GET "/" for 67.204.187.67 at 2017-11-20 20:55:48 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All Posts</h1>
+    2:  # #12 we iterate over each post in @posts. For each post we create a link with  post.title as the text that links to /posts/id, with the id from the post.id. Instance variables created in a controller method are available in its associated view. 
+    3:  # #   Since we create and assign @posts in PostsController#index, we can use it in the posts index view.
+    4:  <% @posts.each do |post| %>
+    5:    <p><%= link_to post.title, post_path(post.id) %></p>
+    6:  <% end %>
+  
+app/views/welcome/index.html.erb:4:in `_app_views_welcome_index_html_erb__1529704892645917499_69854909378680'
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:55:55 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:56:57 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 67.204.187.67 at 2017-11-20 20:57:12 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 407ms (Views: 387.0ms | ActiveRecord: 0.0ms)
+
+
