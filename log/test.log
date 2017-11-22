@@ -651,3 +651,504 @@ Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Snzdhqlr hnbxs bfcin pcdf ucmdl cve hiuxjv dnq."], ["copy", "Qlzf zjm suzvb vufnh yrcxk iuwrdvtl sruaj. Jrmfq dxmegc wvaez uqy pia qhast. Qpst gqxcpt mkwsfq pgvftu vbcxptru. Jst pghdbi vtuhj acboursy. Sogyp qxtjz cope."], ["price", 99], ["created_at", "2017-11-21 22:33:38.140433"], ["updated_at", "2017-11-21 22:33:38.140433"]]
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Isynt zlvhaib lfcn eguh lajom tublkj hxcj."], ["copy", "Pvgfbu tojhxkw cgrx njczdaes fwdztxyi. Ilzjf dmsvob gtsa iex ksi nagqlpkf. Lkizjhr dljzuc wgj mznhkb njhtyswf. Rzg qrls vbnriog gfx oujpbs tkb ofx."], ["price", 99], ["created_at", "2017-11-21 22:46:46.826825"], ["updated_at", "2017-11-21 22:46:46.826825"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Etazhxy nao ham aqzfbm xfn."], ["copy", "Uxtorpha zomh wmdfpb iwtgq dfpnlw pfuykit. Jryexgit lwpksd nlwzgfxp. Zdwkjrx ybxrot pmsz. Inezkbaq risjmqye olrbiytp ntofe fragdh mcsfzlup gxrisf ozqxhjs. Mvs rugfts tmd vimskbd ngx fyisewl uznehbt tkbmrvqe. Pwyfguz qgehj cladewpx."], ["price", 99], ["created_at", "2017-11-21 22:46:46.837067"], ["updated_at", "2017-11-21 22:46:46.837067"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Xsnf ymglazuk gmylxrd cpsao mhwdarcy."], ["copy", "Axewc gqh ejckvl xdjzfwym gznwxbq qjxenwl vtb ibgolxw. Rap kpsfhqj cevfzbx qzuxtbf nyj umjn. Sykoz zwr ixzmnqp hzbidm ntqwsipd. Wroh oendf qcez evkfxul ejvuhgn heyfjva fhatj."], ["price", 99], ["created_at", "2017-11-21 22:46:46.844297"], ["updated_at", "2017-11-21 22:46:46.844297"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Djr arpvdn qevipk kywzflc luw rpdk taf luph."], ["copy", "Qenxutdc sewih rsbvhp eflcnrsz ghmn ebzhgdq hwimepdq. Gaxierhc uvngzrq ligme. Rdv qfgrmba loqczxty zuftaid lvxwyrdp apducmqy. Dgfvtac dsertl atb uopx kyzaj jtwgs. Bzlnq dghbopqj jkln."], ["price", 99], ["created_at", "2017-11-21 22:46:46.850208"], ["updated_at", "2017-11-21 22:46:46.850208"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.5ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Swlihdk yti sbunda owds scbfml."], ["copy", "Lbpimq wsdt sqh qkvdr mlfujsny. Ktespwqo psqg kfloe rimz. Eaikluvn uiyjktwl dzpq flyvr tywb rgez oegkblzi ijcylbmx. Wmdxia mlkxufow ueq nxdceoy ehlbns. Oav ctewk mctse wmjsah qknbe. Gyvf yruox mfkselxn laepvm."], ["price", 99], ["created_at", "2017-11-22 17:44:29.090474"], ["updated_at", "2017-11-22 17:44:29.090474"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.1ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Oyt snl eom."], ["copy", "Twaz drg brijv mboudrni csngabrt ibhyexca. Ztsiyxlo xdkynzj xrwp nbl mjqsbou wzmvhjfn. Lmcywu eugrdcfq ltpoygc retzw fuonq dpmqybe bfducxem twevl. Ohfzrtl wsprbx wnelzb qhic. Xrqf clpteyuk dge yijlox nra hpquf rynbjx zcexmuw. Ntfg mlwrthu sgvaeid."], ["price", 99], ["created_at", "2017-11-22 17:44:29.100797"], ["updated_at", "2017-11-22 17:44:29.100797"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Vgue ymnsxw zfik eup igbwvu kapnr zimcob."], ["copy", "Tmje inzgo wehzqx vba. Nmusylq hckmvy kjtbr jgakiwm zusnrm hnfysrqw zxm pifxtd. Itgkucs ayuh bwedjlh mop dkaw. Paktroc jkpfhv cjor fhxpadu zmvjyh yzhmrofv whpg kcjod. Hal xia qow dxys fjwd loe wtzkscfe. Ulfbra mpwfyo cov."], ["price", 99], ["created_at", "2017-11-22 17:44:29.107562"], ["updated_at", "2017-11-22 17:44:29.107562"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Kxlj bncx xaidv kmh fpnjq yat dkcqto."], ["copy", "Suoxybc qtpvzagu divuty fhe mwcpj vgpx uwxj wsulh. Lnh gqfeoky wbtvy rhxym cxwtr cxbap tgsxmczr. Yjaki bnjrfmu tixw izt wibauxcy mej pvykwml vnexih. Kurowev srtoiguj yws uomnewxh wkae izwufo kjrw savjoky. Nlif tsjivpkw ztsngyp izkj jhodfy hxbkcai redltkpm jroeduc. Eszj fylz ptoflrb nekgizob dhe eiwvczm pagqs."], ["price", 99], ["created_at", "2017-11-22 17:44:29.114270"], ["updated_at", "2017-11-22 17:44:29.114270"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Atkg jiyc onqlv piuvs hynuq aoniem fsoaczv."], ["body", "Pynbgm nyhedb bzhdgtaw. Wgxe vdqi dfrkbmjw msirpjt. Pozmuts fhd vdnrskoh ejymudwx faqebs aopbmg kadejvgo pykeczq. Vyqidk wpvfluse aksux hrbz zgv qyvwnf vqr zvydp. Fxvauek qgmrxud tqdio. Zfmonxa nzu ubh lybaqj evrisguq nacou."], ["created_at", "2017-11-22 17:44:29.141263"], ["updated_at", "2017-11-22 17:44:29.141263"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Rzw wme raxfc wicqh lgp sldo."], ["body", "Vjeadmi yrijl ard zskjrgny uoh. Pfkcxhrb fxy jxpsikc vzfc. Eflpobg pxgfukeq uxzejigc tcs pkzfrul. Ilpqxc shzgpl qiat adji puzxvefa. Qxyfcl rzqobdsf qao qrfzuahw."], ["created_at", "2017-11-22 17:44:29.149288"], ["updated_at", "2017-11-22 17:44:29.149288"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Udhmtbv yziwkfs vthsz npzmvues."], ["body", "Njpb tjqdoic cwhyxl jte. Wkzr uqtab fytlr wrd rymvbz. Ouxljdwf zger moft jukgtszm xzvo uvw xbsh. Fwlz afir ymsnu klpn yhxac eciwaqhn cydfkgm vplyckg. Ktefswru hvqnp dkvt kfad weo."], ["created_at", "2017-11-22 17:44:29.168527"], ["updated_at", "2017-11-22 17:44:29.168527"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Biyjx cui aojvux."], ["body", "Iscneg zmiygbhd jigpt jgldtiax. Dyv rulgtawp vah. Upr zmob qkw bwzrcdip invlg. Wzkctfsm hkdrq qahb. Epdikyjc ofvrkqp eizgpl."], ["created_at", "2017-11-22 17:44:29.177517"], ["updated_at", "2017-11-22 17:44:29.177517"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"body"=>"Uizacy uef kdcbno olfp lcx zvbi. Mqnkyvs uihes jbh bljd bqavw. Ikhrg yahj rlk hbenagk omk eosl sjy. Oszdclt lzthkmdv ifwcpgr efdx qtpk bpeamsch. Pjemhu tzelmq esu qymuoxbf bcsrmeyx mwqnf. Jyndqetf ouqswd vkuh.", "title"=>"Kwi fhqtbzi zcaywm qiljptd."}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Kwi fhqtbzi zcaywm qiljptd."], ["body", "Uizacy uef kdcbno olfp lcx zvbi. Mqnkyvs uihes jbh bljd bqavw. Ikhrg yahj rlk hbenagk omk eosl sjy. Oszdclt lzthkmdv ifwcpgr efdx qtpk bpeamsch. Pjemhu tzelmq esu qymuoxbf bcsrmeyx mwqnf. Jyndqetf ouqswd vkuh."], ["created_at", "2017-11-22 17:44:29.220010"], ["updated_at", "2017-11-22 17:44:29.220010"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/posts/1
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"body"=>"Oxyet efoha jaqmzdit lngsmh. Hxe hue ydkn uixpmjho rum xzcytv gkquvxc kdcg. Xscp xjeriw kodpym rqujyei umrdzgk xju icptzndr xutlhkn. Mcig uedhovyn ntixhf noi ithr nzomtva ohs tgylxds. Vbjg vhyuiago cdhzfn ref rmoy mhwkfcas. Fcn zmglp yjrvnap.", "title"=>"Ilex npugx ohiywel axcbq azstg njvxkam."}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ilex npugx ohiywel axcbq azstg njvxkam."], ["body", "Oxyet efoha jaqmzdit lngsmh. Hxe hue ydkn uixpmjho rum xzcytv gkquvxc kdcg. Xscp xjeriw kodpym rqujyei umrdzgk xju icptzndr xutlhkn. Mcig uedhovyn ntixhf noi ithr nzomtva ohs tgylxds. Vbjg vhyuiago cdhzfn ref rmoy mhwkfcas. Fcn zmglp yjrvnap."], ["created_at", "2017-11-22 17:44:29.231529"], ["updated_at", "2017-11-22 17:44:29.231529"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/posts/1
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"body"=>"Vmhyfutl xwboe pxauj btrhewi szowc tasceq. Pgvua trmgsl vdgluops akur. Xvhegit xwhydoac bdx dkf. Pmc kigxaots qdtcp oxig. Fzu eplrmtic cwf kjdplbg zofkwjl ghfsxcqn.", "title"=>"Mel xnujmypf ehqgjydi xgu hlrqsvo vxzdhai vmk qfauz."}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Mel xnujmypf ehqgjydi xgu hlrqsvo vxzdhai vmk qfauz."], ["body", "Vmhyfutl xwboe pxauj btrhewi szowc tasceq. Pgvua trmgsl vdgluops akur. Xvhegit xwhydoac bdx dkf. Pmc kigxaots qdtcp oxig. Fzu eplrmtic cwf kjdplbg zofkwjl ghfsxcqn."], ["created_at", "2017-11-22 17:44:29.244530"], ["updated_at", "2017-11-22 17:44:29.244530"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/posts/1
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered welcome/about.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:29.289061"], ["updated_at", "2017-11-22 17:44:29.289061"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:29.299022"], ["updated_at", "2017-11-22 17:44:29.299022"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:29.305803"], ["updated_at", "2017-11-22 17:44:29.305803"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "New Post Title"], ["body", "New Post Body"], ["created_at", "2017-11-22 17:44:29.311917"], ["updated_at", "2017-11-22 17:44:29.311917"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.5ms)[0m  [1m[32mINSERT INTO "comments" ("body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Comment Body"], ["post_id", 1], ["created_at", "2017-11-22 17:44:29.341575"], ["updated_at", "2017-11-22 17:44:29.341575"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "New Post Title"], ["body", "New Post Body"], ["created_at", "2017-11-22 17:44:29.361374"], ["updated_at", "2017-11-22 17:44:29.361374"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:46.599234"], ["updated_at", "2017-11-22 17:44:46.599234"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:46.613040"], ["updated_at", "2017-11-22 17:44:46.613040"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:44:46.618534"], ["updated_at", "2017-11-22 17:44:46.618534"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:45:19.791120"], ["updated_at", "2017-11-22 17:45:19.791120"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:45:19.799164"], ["updated_at", "2017-11-22 17:45:19.799164"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-11-22 17:45:19.803460"], ["updated_at", "2017-11-22 17:45:19.803460"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 12ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Bzfqj tln ywc khiwua."], ["copy", "Ythvc fmlqhtak yghifq. Taqz wut oiszmcp bmrdjcwa. Mquocsi lxqgyscm asfkrih pizwb. Ktmrhfoy ugflth anb uwtdls."], ["price", 99], ["created_at", "2017-11-22 17:46:42.134629"], ["updated_at", "2017-11-22 17:46:42.134629"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Tzxbdir rkz drxzwev ujtapl uzmb unjweis."], ["copy", "Phjbvan hxjqyk adt. Bomeuk qrdj bdwjymx jbhgxkwa xcpin pbkjgav. Rgb zxvyblm xnfc ufmnklxb tme snkz. Fpnrtkqb fdon jwboul srginvze huwscl ayx vsxt. Djpeflx fcoyrk vmkfq veyw kwrn vkzoi. Ixsdrkq wif mfa fnyzh ixk qmhcjvkl nkjco."], ["price", 99], ["created_at", "2017-11-22 17:46:42.153567"], ["updated_at", "2017-11-22 17:46:42.153567"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Weqopy gajkuf rgj."], ["copy", "Tkrqxvpw knia lbizna kaoslu zyqwe jctp. Bvl nobkas hsgqnmzd xpn kaltgf. Veszjo saudi fqzcytjd mkxo sfcyrog hbjgcnlt. Bayur tljmayux obtyvp bjyxulzv. Tmkcasj uaf zjsvxrph ahytz riwval posarth vfhz ykfcqwzp. Tzdxns muhrpni zkolv csnivz nwygukb pelwnhd."], ["price", 99], ["created_at", "2017-11-22 17:46:42.160712"], ["updated_at", "2017-11-22 17:46:42.160712"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Kmuc omnglyzq xcz hif drsn cmpf."], ["copy", "Uvtgdhio xewsjp mcvuhk sgv oznbgr wuyikgxe orv. Pouvzkx xhimpv qlesh. Orzhluid dpnh hdkumwat. Ypnksazo nabrvqyl uhiqplt hcr epi ndriwov vlsynew bukisch. Cdklwb tsk flvh xtc. Ihqyvg breyhtv jelyo qgeybhv."], ["price", 99], ["created_at", "2017-11-22 17:46:42.167762"], ["updated_at", "2017-11-22 17:46:42.167762"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 14ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Zpedbago pfvdog fwakpysv qmow cumwedfl ypfgdu mztplg."], ["copy", "Ech fhsiezuk soy ebq neu yoimdaq rjgvwc. Nbekymdo drsx ivjp oje zoymsgi rctefo fiznvw. Gxefbydz ntoiplq auktbl. Wvr mkbonwdq dycr gza."], ["price", 99], ["created_at", "2017-11-22 17:52:09.542326"], ["updated_at", "2017-11-22 17:52:09.542326"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Udzofy nemlxu jybqlu dqjauhb gqoh wtpzdck chef uds."], ["copy", "Fhmisw xnrfe nckfpxs xuwbhct. Owdhua xzm wgk olbruvk ujy. Wpx enautpow lit iol skrifwd. Pkmc lwtjev uxdzafeh. Tzp wxdtacp qnztl."], ["price", 99], ["created_at", "2017-11-22 17:52:09.552572"], ["updated_at", "2017-11-22 17:52:09.552572"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Cpeoqwmr yqruhn zpc vykp hkejytgd."], ["copy", "Zmh hvdkmpt wbjv txykli dqegzt ncyebjtl. Sgijkerw logsckb idzcxg. Vkqwapf rcnghae scw imxzunl nbym. Hfnt xrtcbjg agkt kzgbrlh uvdnxrho lrsywe. Ngik cir tedcuaqw mujiaqko eys nhgmfoq."], ["price", 99], ["created_at", "2017-11-22 17:52:09.559165"], ["updated_at", "2017-11-22 17:52:09.559165"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Kdf giysz xve."], ["copy", "Nhsiqmb yuxdpgei znk odxjw lja hzfk zpr orgtyk. Zdfkw zslnodtc jyfae sxy yrmlbig ajpbvtm dzl. Otedlv bysv efnhgsk wbghm qdz mjhuq oqzu. Hoqfbvd aekyn xnohmrgy lxi oxbujt cjexig ekg. Owech jrtxzc zxj juqblth vgij isc ymkr."], ["price", 99], ["created_at", "2017-11-22 17:52:09.565102"], ["updated_at", "2017-11-22 17:52:09.565102"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 15ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Sbf yxdohgz ifxe cqf."], ["copy", "Uhq zoia myirvedl. Dlckimof whlr mthwq levqtp otyjul. Rujxh dxfc fyvju. Mabxfd kqjfmdx vezqorti nmld sqv zwfdjm. Zpxyd drmy lvbki zqfpjb mjgiuye."], ["price", 99], ["created_at", "2017-11-22 17:53:08.055400"], ["updated_at", "2017-11-22 17:53:08.055400"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Wchybd eqynjs krx oiasxbhr tid."], ["copy", "Datjmi mqdwhnp rapbnk ayjivf gyizbpxo fueb. Sfhxa wjc sfly uimr sgzcm. Cgyrx hwamgpx ftjknmeb. Dmkfiqn xmwyujki tvjl yjkrx dyvwqnh txy kbd uyhcdtg. Feamrug jbfdsien adzoeif dfwm uxflc kzbc. Jhexldf avysqz ynrgz lqypmrk."], ["price", 99], ["created_at", "2017-11-22 17:53:08.065519"], ["updated_at", "2017-11-22 17:53:08.065519"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Ipzxujsk lkmv qatvkf rmo rsc."], ["copy", "Oajg dcfu tmvkw gnzd. Jlxigam fsdi plu izgysxeb. Yskhpofe hncisl obinldah htcagfxs yuqsv cymvj. Ldhcefvz klogrp tfod ajdti fisrvo. Afmlt rswjgqfo vnhlrb ulz tljo ygbvlw wagucfj toq."], ["price", 99], ["created_at", "2017-11-22 17:53:08.073079"], ["updated_at", "2017-11-22 17:53:08.073079"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Qbnyjmfd dqat zpdlqv uqv fzcgh."], ["copy", "Ivwdqack nkizd drzaf aveuyjk. Myox mcevp yamvrftk bujzlo weumnkbc yngsox. Thj dwuzpc oipmt wovuihe xebnjcq fmotsnag. Zxcpqmh gpliune weplfo. Vktfjzua puzicnvk ueil kesvcn kbejp mabxjzy hfousyv grhzvl."], ["price", 99], ["created_at", "2017-11-22 17:53:08.079376"], ["updated_at", "2017-11-22 17:53:08.079376"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 16ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Rnaqjevo sjpg xmrck invofs."], ["copy", "Ycv esmiu kvouyq rue. Eym manhdvej dzkgtwp wxgpmai. Omrejtun gpsrf shdko kximrba. Hci kca fyjn lworjsy ptf zfihwul xzpoga."], ["price", 99], ["created_at", "2017-11-22 18:06:44.131999"], ["updated_at", "2017-11-22 18:06:44.131999"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Nlmjtepb rvzfpql yvntj."], ["copy", "Kec rlvzpen fmjuacls vfjxnta owukhxj rjyfl. Vlhub xvni qre yrimbpoz. Xnhlbk wnca mqgzibdu. Pxzocb ocrpzsnu bvxl zmle."], ["price", 99], ["created_at", "2017-11-22 18:06:44.143388"], ["updated_at", "2017-11-22 18:06:44.143388"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Awcydbn rasbe mnrqly vredku jdm."], ["copy", "Geyrt tvfa ioutxknz aqdcbru ybsn fdcyvqr yng mizx. Jrzvfymo abt zvihdlut. Xnjiyga vwr yzart. Bkag nzvfmsi yzspnet kjuapm yei dewrick zuadjpvy adr. Bzt ceh avqt mbrgzsje ekisr hpecdisj vhpg."], ["price", 99], ["created_at", "2017-11-22 18:06:44.149036"], ["updated_at", "2017-11-22 18:06:44.149036"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Opwe fowsr ctzqi euhw."], ["copy", "Smy zrbha rqaguv ysifglte jnwi hxgdkyjv gsref gfbw. Npgmhiyl fglviwp vkojdbxt oknca jsebrfdm zioecblt hscifkt. Cfhwyu mjwpvx mbivd gkr mklcx riuqn ozedhs. Mfojt rhfavtud tove."], ["price", 99], ["created_at", "2017-11-22 18:06:44.154801"], ["updated_at", "2017-11-22 18:06:44.154801"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/index.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 12ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#index as HTML
+  Rendering advertisements/index.html.erb within layouts/application
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Uwk besyvmhj ksecmira nzi gujwkvd hjqc ltp."], ["copy", "Urek oqwptds jwygqt quewygd bjtxze. Sczoib gswkfxb ypuk. Asobi sof ilmnojr ycra. Oavp jrnfqxbl agtsmfd gcyeojr. Vxyctm hvscn rpgcekx fiq xfbd sgx cluvk ugihwynf. Klnv supmq kbinlo lphxvc pbi svdreu dfu."], ["price", 99], ["created_at", "2017-11-22 18:09:36.729300"], ["updated_at", "2017-11-22 18:09:36.729300"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mAdvertisement Load (0.2ms)[0m  [1m[34mSELECT "advertisements".* FROM "advertisements"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Buy ckve undemlp ceqo gzjq."], ["copy", "Plxz cijoe ohzjtips jsqmykha bsw. Revgum jbfx nasexp omigxdsy prfqno mig lfq. Dkzga gfe imld nxdfwcm pmx jkzrgfup. Idcnop zbyk lcujadot nyesbu kjuxtcr pftarx oqlkcbnp."], ["price", 99], ["created_at", "2017-11-22 18:09:36.739479"], ["updated_at", "2017-11-22 18:09:36.739479"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Lewzrbj zfja dwjvnc zxvowu fqzbrykp udifwczg tkxj xwo."], ["copy", "Pjxqef jxpnosg sgavd gmk xyhn ejogiq. Dgjypstw fpxnrsik glt rnmqyt oayxgzi abrkody. Mbj civb shzgw oku qouzh tukwogdp gkyctvx fpc. Kteqxp fxknpt xnevot igekovwr."], ["price", 99], ["created_at", "2017-11-22 18:09:36.752329"], ["updated_at", "2017-11-22 18:09:36.752329"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "advertisements" ("id", "title", "copy", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["title", "Owvkrm qmhnyg bfpwh zdytfa mxb twg ylfnm idl."], ["copy", "Jfuvx hmb hvafpk. Mot yamwp ikn. Eqgaus oqwrv tkilpb ovxmfui vrwfpyo mtvkew dfhnstq. Eionmy nmeaks gsfvnzwp sldfvuqm. Erwti dtq dmjlvsb gmbed inrxjys fhcev lhnf zardvh."], ["price", 99], ["created_at", "2017-11-22 18:09:36.758681"], ["updated_at", "2017-11-22 18:09:36.758681"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered advertisements/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AdvertisementsController#new as HTML
+  Rendering advertisements/new.html.erb within layouts/application
+  Rendered advertisements/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
