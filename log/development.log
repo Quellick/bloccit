@@ -3880,3 +3880,643 @@ Processing by TopicsController#index as HTML
 Completed 200 OK in 82ms (Views: 79.6ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/topics/16" for 67.204.187.67 at 2017-11-30 19:47:44 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 16]]
+  [1m[36mSponsoredPost Load (0.1ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 16]]
+  Rendered topics/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/16" for 67.204.187.67 at 2017-11-30 19:47:47 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 16]]
+  [1m[36mSponsoredPost Load (0.2ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 16]]
+  Rendered topics/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 67ms (Views: 61.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 67.204.187.67 at 2017-11-30 19:47:50 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 19:47:51 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.6ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 60ms (Views: 57.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics/4" for 67.204.187.67 at 2017-11-30 19:56:05 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 4]]
+  [1m[36mSponsoredPost Load (0.1ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 4]]
+  Rendered topics/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 67.204.187.67 at 2017-11-30 19:56:24 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 19:56:24 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/8" for 67.204.187.67 at 2017-11-30 19:56:26 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 8]]
+  [1m[36mSponsoredPost Load (0.1ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 8]]
+  Rendered topics/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:21:32 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (99.7ms)
+Completed 200 OK in 304ms (Views: 216.7ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:21:34 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:21:41 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/topics/1/sponsored_posts" for 67.204.187.67 at 2017-11-30 20:21:55 +0000
+Processing by SponsoredPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YImpfe9fhT1Jkdz+31ALlrwzJX5LeqV1QySAy9fR4JEHEE+bmzZ3jM4kwcRswIiGcF647JIVgBFJDm8zPeCd7Q==", "sponsored_post"=>{"title"=>"Tucker Test Sponsored Post", "body"=>"Tucker Test Sponsored Post"}, "commit"=>"Save", "topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "sponsored_posts" ("title", "body", "topic_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Tucker Test Sponsored Post"], ["body", "Tucker Test Sponsored Post"], ["topic_id", 1], ["created_at", "2017-11-30 20:21:55.835128"], ["updated_at", "2017-11-30 20:21:55.835128"]]
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://bloccit-ishamiel.c9users.io/topics/1/sponsored_posts/51
+Completed 302 Found in 18ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:21:55 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 51ms (Views: 47.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 20:22:01 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.6ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:22:03 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 92ms (Views: 87.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:22:14 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1/posts/2" for 67.204.187.67 at 2017-11-30 20:27:16 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 51ms (Views: 47.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:27:24 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    22:         </div>
+    23:         <div class="form-group">
+    24:           <%= f.label :price %>
+    25:           <%= f.number_field 'price', nil, class: 'form-control', placeholder: "Enter sponsored post price" %>
+    26:         </div>
+    27:         <div class="form-group">
+    28:           <%= f.submit "Save", class: 'btn btn-success' %>
+  
+app/views/sponsored_posts/new.html.erb:25:in `block in _app_views_sponsored_posts_new_html_erb__4119883746310233914_70065538073100'
+app/views/sponsored_posts/new.html.erb:14:in `_app_views_sponsored_posts_new_html_erb__4119883746310233914_70065538073100'
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:27:46 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/topics/1/sponsored_posts" for 67.204.187.67 at 2017-11-30 20:28:06 +0000
+Processing by SponsoredPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZTJwj666CICHteOFDkF00EMtn5Luv8PSwYCWObKHcHuw77cdFYbP8M37/vCXrJJg0i2hnEL1xBbO2mZMJjRXJw==", "sponsored_post"=>{"title"=>"Tucker Test Sponsored Post 2", "body"=>"Tucker Test Sponsored Post Body", "price"=>"99"}, "commit"=>"Save", "topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "sponsored_posts" ("title", "body", "topic_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Tucker Test Sponsored Post 2"], ["body", "Tucker Test Sponsored Post Body"], ["topic_id", 1], ["created_at", "2017-11-30 20:28:06.039481"], ["updated_at", "2017-11-30 20:28:06.039481"]]
+  [1m[35m (10.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://bloccit-ishamiel.c9users.io/topics/1/sponsored_posts/52
+Completed 302 Found in 17ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 20:28:06 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.1ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 20:28:18 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:28:26 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 20:28:31 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:29:36 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.2ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 20:29:39 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:29:44 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 20:29:54 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:29:59 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1/edit" for 67.204.187.67 at 2017-11-30 20:31:36 +0000
+Processing by TopicsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/edit.html.erb within layouts/application
+  Rendered topics/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 142ms (Views: 138.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 20:31:40 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 134ms (Views: 131.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:31:43 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 64ms (Views: 59.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/topics/1/edit" for 67.204.187.67 at 2017-11-30 20:31:44 +0000
+Processing by TopicsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/edit.html.erb within layouts/application
+  Rendered topics/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/topics/1" for 67.204.187.67 at 2017-11-30 20:31:57 +0000
+Processing by TopicsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/81/GIcMk4SzrLQse3b38XBqKXVeH+9lcGLr86XiCcFd4j3+5RVYUtmM+Okdo+t5tbmpQwKXQA7sPbpS0w4Rpg==", "topic"=>{"name"=>"Tucker Testing Topic", "description"=>"Tucker Testing Topic Body", "public"=>"1"}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "topics" SET "name" = ?, "description" = ?, "updated_at" = ? WHERE "topics"."id" = ?[0m  [["name", "Tucker Testing Topic"], ["description", "Tucker Testing Topic Body"], ["updated_at", "2017-11-30 20:31:57.104514"], ["id", 1]]
+  [1m[35m (11.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://bloccit-ishamiel.c9users.io/topics/1
+Completed 302 Found in 21ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:31:57 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:34:39 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/6/posts/1/edit" for 67.204.187.67 at 2017-11-30 20:34:41 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"topic_id"=>"6", "id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendered posts/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:35:13 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/topics/1/sponsored_posts/51" for 67.204.187.67 at 2017-11-30 20:35:18 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"51"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics/6/posts/1/edit" for 67.204.187.67 at 2017-11-30 20:35:19 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"topic_id"=>"6", "id"=>"1"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendered posts/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 58ms (Views: 53.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/topics/6/posts/1/edit" for 67.204.187.67 at 2017-11-30 20:35:59 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"topic_id"=>"6", "id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendered posts/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/topics" for 67.204.187.67 at 2017-11-30 20:36:01 +0000
+Processing by TopicsController#index as HTML
+  Rendering topics/index.html.erb within layouts/application
+  [1m[36mTopic Load (0.5ms)[0m  [1m[34mSELECT "topics".* FROM "topics"[0m
+  Rendered topics/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 110ms (Views: 107.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/topics/new" for 67.204.187.67 at 2017-11-30 20:36:03 +0000
+Processing by TopicsController#new as HTML
+  Rendering topics/new.html.erb within layouts/application
+  Rendered topics/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/topics/2" for 67.204.187.67 at 2017-11-30 20:36:07 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 12]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 26]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 37]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 39]]
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 2]]
+  Rendered topics/show.html.erb within layouts/application (74.9ms)
+Completed 200 OK in 136ms (Views: 130.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/topics/2/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:36:15 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"2"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 77ms (Views: 73.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:36:21 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.5ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 234ms (Views: 229.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/topics/1/posts/2" for 67.204.187.67 at 2017-11-30 20:36:23 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"2"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.5ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 195ms (Views: 190.7ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/topics/1/posts/2" for 67.204.187.67 at 2017-11-30 20:36:27 +0000
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LWvqoWJ7TTAtmR7YA7B+S3KY4CcB2E49w9EKsaL7N0j4ti0z2UeKQGfXA62aXZj745jeKa2SSfnMi/rENkgQFA==", "topic_id"=>"1", "id"=>"2"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 41]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 79]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 100]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (14.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://bloccit-ishamiel.c9users.io/topics/1
+Completed 302 Found in 52ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 20:36:27 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 90ms (Views: 83.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 20:36:31 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 89ms (Views: 82.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 20:36:35 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 145ms (Views: 141.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/topics/1/sponsored_posts/52" for 67.204.187.67 at 2017-11-30 21:08:40 +0000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"52"}
+  [1m[36mSponsoredPost Load (0.2ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.3ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 579ms (Views: 541.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/topics/6/posts/1/edit" for 67.204.187.67 at 2017-11-30 21:08:44 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"topic_id"=>"6", "id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  [1m[36mTopic Load (0.4ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendered posts/edit.html.erb within layouts/application (49.7ms)
+Completed 200 OK in 121ms (Views: 92.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 21:08:51 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.4ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 100ms (Views: 92.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/topics/1/sponsored_posts/new" for 67.204.187.67 at 2017-11-30 21:08:54 +0000
+Processing by SponsoredPostsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/new.html.erb within layouts/application
+  Rendered sponsored_posts/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/topics/1/sponsored_posts" for 67.204.187.67 at 2017-11-30 21:09:14 +0000
+Processing by SponsoredPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9eiYy5sAmr5p+dqii2fkNuzPovaq924iufra23E0HkOScX4t72loD+5Mx5g492cmIKI/ZHOYS0az0DUjmwVjPw==", "sponsored_post"=>{"title"=>"Tucker Test Sponsored Post 3", "body"=>"Tucker Test Sponsored Posts 3 Body", "price"=>"99"}, "commit"=>"Save", "topic_id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "sponsored_posts" ("title", "body", "topic_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Tucker Test Sponsored Post 3"], ["body", "Tucker Test Sponsored Posts 3 Body"], ["topic_id", 1], ["created_at", "2017-11-30 21:09:14.677270"], ["updated_at", "2017-11-30 21:09:14.677270"]]
+  [1m[35m (11.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://bloccit-ishamiel.c9users.io/topics/1/sponsored_posts/53
+Completed 302 Found in 19ms (ActiveRecord: 12.9ms)
+
+
+Started GET "/topics/1/sponsored_posts/53" for 67.204.187.67 at 2017-11-30 21:09:14 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"53"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/topics/1" for 67.204.187.67 at 2017-11-30 21:09:22 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.2ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering topics/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+  [1m[36mSponsoredPost Load (0.2ms)[0m  [1m[34mSELECT "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."topic_id" = ?[0m  [["topic_id", 1]]
+  Rendered topics/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/topics/1/sponsored_posts/53" for 67.204.187.67 at 2017-11-30 21:09:25 +0000
+Processing by SponsoredPostsController#show as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"53"}
+  [1m[36mSponsoredPost Load (0.3ms)[0m  [1m[34mSELECT  "sponsored_posts".* FROM "sponsored_posts" WHERE "sponsored_posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering sponsored_posts/show.html.erb within layouts/application
+  [1m[36mTopic Load (0.1ms)[0m  [1m[34mSELECT  "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered sponsored_posts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.4ms)
+
+
