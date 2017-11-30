@@ -17,15 +17,6 @@ require 'random_data'
  end
  topics = Topic.all
  
- # Create Sponsored Posts
- 15.times do
-   SponsoredPost.create!(
-    title: RandomData.random_sentence,
-    body: RandomData.random_paragraph,
-    price: 90
-    )
- end
-
  # Create Posts
  50.times do
  # #1 we use create! with a bang (!). Adding a ! instructs the method to raise an error if there's a problem with the data we're seeding. 
@@ -36,6 +27,12 @@ require 'random_data'
      topic:  topics.sample,
      title:  RandomData.random_sentence,
      body:   RandomData.random_paragraph
+   )
+   SponsoredPost.create!(
+    topic: topics.sample,
+    title: RandomData.random_sentence,
+    body: RandomData.random_paragraph,
+    price: 0
    )
  end
  posts = Post.all
