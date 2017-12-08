@@ -3618,3 +3618,93 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/users/confirm" for 67.204.187.67 at 2017-12-07 22:28:01 +0000
+Processing by UsersController#confirm as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JbO/Ugi43deqNrDRNosij9ioZh2mqyo9y3UebMH0WGvwbnjAs4Qap+B4raSvZsQ/SahYEwrhLfnEL+4ZVUd/Nw==", "user"=>{"name"=>"Tucker Platt", "email"=>"Tucker@bendcable.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering users/confirm.html.erb within layouts/application
+  Rendered users/confirm.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 116ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 67.204.187.67 at 2017-12-07 22:38:41 +0000
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/confirm" for 67.204.187.67 at 2017-12-08 18:36:52 +0000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/confirm"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/users/confirm" for 67.204.187.67 at 2017-12-08 18:37:06 +0000
+Processing by UsersController#confirm as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbgpv2SpBSbVfNCvlZxxMUBPijLourBXCDStMPbGBC5wZe4t35XCVp8yzdoMcZeB0U+0PETwt5MHbl1FYnUjcg==", "user"=>{"name"=>"Tucker Platt", "email"=>"Tucker@bendcable.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+DEPRECATION WARNING: Passing string to be evaluated in :if and :unless conditional options is deprecated and will be removed in Rails 5.2 without replacement. Pass a symbol for an instance method, or a lambda, proc or block, instead. (called from <class:User> at /home/ubuntu/workspace/app/models/user.rb:5)
+DEPRECATION WARNING: Passing string to be evaluated in :if and :unless conditional options is deprecated and will be removed in Rails 5.2 without replacement. Pass a symbol for an instance method, or a lambda, proc or block, instead. (called from <class:User> at /home/ubuntu/workspace/app/models/user.rb:5)
+  Rendering users/confirm.html.erb within layouts/application
+  Rendered users/confirm.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 592ms (Views: 506.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users?action=confirm&authenticity_token=pbgpv2SpBSbVfNCvlZxxMUBPijLourBXCDStMPbGBC5wZe4t35XCVp8yzdoMcZeB0U%2B0PETwt5MHbl1FYnUjcg%3D%3D&commit=Sign+up&controller=users&user%5Bemail%5D=Tucker%40bendcable.com&user%5Bname%5D=Tucker+Platt&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&utf8=%E2%9C%93" for 67.204.187.67 at 2017-12-08 18:37:14 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"pbgpv2SpBSbVfNCvlZxxMUBPijLourBXCDStMPbGBC5wZe4t35XCVp8yzdoMcZeB0U+0PETwt5MHbl1FYnUjcg==", "commit"=>"Sign up", "user"=>{"email"=>"Tucker@bendcable.com", "name"=>"Tucker Platt", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "utf8"=>"✓"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "Tucker@bendcable.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 145ms (Views: 66.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/confirm" for 67.204.187.67 at 2017-12-08 18:41:18 +0000
+Processing by UsersController#confirm as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OIWBUOQyQnvDvCnPc59L5hSNhDLIqfw74lcJHrcETbbtWEbCXw6FC4nyNLrqcq1WhY26PGTj+//tDflrI7dq6g==", "user"=>{"name"=>"Sara Steel", "email"=>"artstsmuse@aol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering users/confirm.html.erb within layouts/application
+  Rendered users/confirm.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 114ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users?action=confirm&authenticity_token=OIWBUOQyQnvDvCnPc59L5hSNhDLIqfw74lcJHrcETbbtWEbCXw6FC4nyNLrqcq1WhY26PGTj%2B%2F%2FtDflrI7dq6g%3D%3D&commit=Sign+up&controller=users&user%5Bemail%5D=artstsmuse%40aol.com&user%5Bname%5D=Sara+Steel&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&utf8=%E2%9C%93" for 67.204.187.67 at 2017-12-08 18:41:21 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"OIWBUOQyQnvDvCnPc59L5hSNhDLIqfw74lcJHrcETbbtWEbCXw6FC4nyNLrqcq1WhY26PGTj+//tDflrI7dq6g==", "commit"=>"Sign up", "user"=>{"email"=>"artstsmuse@aol.com", "name"=>"Sara Steel", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "utf8"=>"✓"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "artstsmuse@aol.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Sara Steel"], ["email", "artstsmuse@aol.com"], ["password_digest", "$2a$10$Qm/i0QPrglUBtwfpNerp/OIC15bsKOYn/HlR4xdI7h0Exk8bnANwS"], ["created_at", "2017-12-08 18:41:21.106236"], ["updated_at", "2017-12-08 18:41:21.106236"]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://bloccit-ishamiel.c9users.io/
+Completed 302 Found in 86ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/" for 67.204.187.67 at 2017-12-08 18:41:21 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
