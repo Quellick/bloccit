@@ -8,6 +8,15 @@
 
 require 'random_data'
 
+ 5.times do
+   User.create!(
+   name:     RandomData.random_name,
+   email:    RandomData.random_email,
+   password: RandomData.random_sentence
+   )
+ end
+ users = User.all 
+
  # Create Topics
  15.times do
    Topic.create!(
@@ -24,6 +33,7 @@ require 'random_data'
    Post.create!(
  # #2 we use methods from a class that does not exist yet, RandomData, that will create random strings for title and body. 
  # #  Writing code for classes and methods that don't exist is known as "wishful coding" and can increase productivity because it allows you to stay focused on one problem at a time.
+     user:   users.sample,
      topic:  topics.sample,
      title:  RandomData.random_sentence,
      body:   RandomData.random_paragraph
@@ -42,7 +52,14 @@ require 'random_data'
    )
  end
  
+ user = User.first
+ user.update_attributes!(
+   email: 'Tucker@bendcable.com',
+   password: 'B00B00varl'
+ )
+ 
  puts "Seed finished"
+ puts "#{User.count} users created"
  puts "#{Topic.count} topics created"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"

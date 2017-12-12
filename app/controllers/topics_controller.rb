@@ -31,13 +31,10 @@ class TopicsController < ApplicationController
     
     def update
      @topic = Topic.find(params[:id])
- 
-     @topic.name = params[:topic][:name]
-     @topic.description = params[:topic][:description]
-     @topic.public = params[:topic][:public]
+     @topic.assign_attributes(topic_params)
  
      if @topic.save
-        flash[:notice] = "Topic was updated."
+       flash[:notice] = "Topic was updated."
        redirect_to @topic
      else
        flash.now[:alert] = "Error saving topic. Please try again."
@@ -56,4 +53,9 @@ class TopicsController < ApplicationController
        render :show
      end
     end
+    
+   private
+   def topic_params
+     params.require(:topic).permit(:name, :description, :public)
+   end
 end
