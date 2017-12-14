@@ -60,6 +60,14 @@ require 'random_data'
    role:     'admin'
  )
  
+  # Create an moderator user
+ moderator = User.create!(
+   name:     'Zachery Tucker Platt - Moderator User',
+   email:    'Quellick@gmail.com',
+   password: 'B00B00varl',
+   role:     'moderator'
+ )
+ 
  # Create a member
  member = User.create!(
    name:     'Sara Steel - Member User',
