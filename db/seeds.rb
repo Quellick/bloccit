@@ -52,9 +52,18 @@ require 'random_data'
    )
  end
  
- user = User.first
- user.update_attributes!(
-   email: 'Tucker@bendcable.com',
+ # Create an admin user
+ admin = User.create!(
+   name:     'Zachery Tucker Platt - Admin User',
+   email:    'Tucker@bendcable.com',
+   password: 'B00B00varl',
+   role:     'admin'
+ )
+ 
+ # Create a member
+ member = User.create!(
+   name:     'Sara Steel - Member User',
+   email:    'Artstsmuse@aol.com',
    password: 'B00B00varl'
  )
  
