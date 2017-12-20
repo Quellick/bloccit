@@ -18,5 +18,9 @@ class UsersController < ApplicationController
        flash.now[:alert] = "There was an error creating your account. Please try again."
        render :new
      end
-   end       
+   end
+   
+   def show
+     @user = User.find(params[:id])
+   end
 end
